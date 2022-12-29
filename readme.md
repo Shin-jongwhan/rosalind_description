@@ -233,6 +233,9 @@ T: 1 5 0 0 0 1 1 6
 - 리스트 인덱스로 태어난 month 를 구분한다.
 - die_month + 태어난 month 를 더해 현재 month 와 같으면 죽는 것으로 한다.
 - 문제에서는 죽는 달에 먼저 번식을 한 후 죽는다.
+### 아래 그림에서 n 은 태어난 달, 그 다음에 표시된 O, X 는 번식 가능 / 불가능을 나타낸 것이고, 그 다음 숫자는 토끼 쌍 수이다.
+### 3 달 후에 죽는다.
+#### ![image](https://user-images.githubusercontent.com/62974484/209893659-cff2228a-0478-47ea-9c2c-9d8ae58e3469.png)
 ```
 Sample Dataset
 6 3
