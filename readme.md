@@ -227,5 +227,19 @@ T: 1 5 0 0 0 1 1 6
 ```
 ### <br/><br/><br/>
 
+## 11. Mortal Fibonacci Rabbits
+### https://rosalind.info/problems/fibd/
+### 4. Rabbits and Recurrence Relations 문제에서 토끼가 몇 달 후에 죽는지 추가한 것이다.
+- 리스트 인덱스로 태어난 month 를 구분한다.
+- die_month + 태어난 month 를 더해 현재 month 와 같으면 죽는 것으로 한다.
+- 문제에서는 죽는 달에 먼저 번식을 한 후 죽는다.
+```
+Sample Dataset
+6 3
 
+Sample Output
+4
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/209893532-29e48f52-1c97-4296-8cd7-8a67356b00bb.png)
+### <br/><br/><br/>
 
